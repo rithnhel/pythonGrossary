@@ -1,0 +1,4 @@
+Pillow
+PyDictionary
+requests
+beautifulsoup4
