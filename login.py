@@ -6,7 +6,7 @@ import sqlite3
 conn = sqlite3.connect('python_glossary.db')
 c = conn.cursor()
 c.execute('''CREATE TABLE IF NOT EXISTS users
-             (email TEXT, password TEXT)''')
+             (name TEXT, username TEXT, email TEXT, password TEXT)''')
 conn.commit()
 
 
